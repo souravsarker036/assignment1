@@ -89,7 +89,6 @@
 .action{
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 1140px;
   height: 328px;
   padding-right: 148px;
@@ -126,4 +125,39 @@
   border-radius: 48px;
 }
 /* productive-user */
+.productive-user{
+  background-color: rgba(10, 71, 255, 10%);
+  border-radius: 24px;
+  width: 1140px;
+  height: 306px;
+  padding-left: 141px;
+  padding-right: 159px;
+  margin-bottom: 137px;
 
+}
+.user-description{
+  width: 856px;
+  height: 206px;
+}
+.user-title{
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 50px;
+  /* margin-bottom: 40px; */
+  text-align: center;
+}
+.number{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.user-number-style {
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+}
+.user-number-description{
+  font-size: 20px;
+  font-weight: 400;
+}
