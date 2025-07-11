@@ -29,7 +29,7 @@
 /* header section */
 .header {
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
-   max-width: 1440px;
+   max-width: 100%;
    padding: 0px 0px 0px 0px;
    /* max-height: 698px; */
    margin-bottom: 116px;
@@ -44,9 +44,10 @@
   justify-content: space-between;
   padding: 150px;
   align-items: center;
-  margin-bottom: 158px;
+  margin-bottom: 100px;
   width: 1140px;
   height: 151px;
+  margin: auto;
 }
 .banner-content{
   padding: 267.5px;
@@ -56,6 +57,7 @@
   text-align: center;
   justify-content: center;
   width: 905px;
+  margin: auto;
   
 
 }
@@ -86,44 +88,57 @@
 }
 /* main */
 /* section-action */
-.action{
+
+ .action {
   display: flex;
   justify-content: space-between;
-  width: 1140px;
-  height: 328px;
-  padding-right: 148px;
-  padding-left: 159px;
-  margin-bottom: 116px;
+  align-items: center; 
+  width: 1440px;
+  margin: auto;
+  padding: 40px 0; 
 }
-.action-message{
-  width: 517px;
-  height: 203px;
+
+.action-message {
+  max-width: 517px;
 }
-.section1-title{
+
+.section1-title {
   font-weight: bold;
   font-size: 42px;
+  margin-bottom: 10px;
 }
-.section1-details{
+
+.section1-details {
   font-size: 24px;
-  font-weight: 400px;
+  font-weight: 400;
+  line-height: 1.5;
 }
-.btn-primary3{
+
+.btn-primary3 {
   margin-top: 23px;
-    background-color: #4E47FF;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 229px;
-    height: 48px;
-    border: none;
-    align-items: center; 
+  background-color: #4E47FF;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 229px;
+  height: 48px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.wc-mini{
+
+.action-img {
+  flex-shrink: 0; 
+}
+
+.wc-mini {
   width: 403px;
   height: 328px;
   border-radius: 48px;
 }
+
 /* productive-user */
 .productive-user{
   background-color: rgba(10, 71, 255, 10%);
@@ -133,20 +148,30 @@
   padding-left: 141px;
   padding-right: 159px;
   margin-bottom: 137px;
+  padding-top: 10px;
+  margin: auto;
 
 }
 .user-description{
-  width: 856px;
-  height: 206px;
+  /* width: 856px;
+  height: 206px; */
 }
 .user-title{
+  padding-top: 50px;
   font-size: 38px;
   font-weight: bold;
   margin-top: 50px;
-  /* margin-bottom: 40px; */
+  margin-bottom: 40px;
   text-align: center;
+  margin: auto;
+}
+.title-class{
+  display: flex;
+  align-items: center;
+  margin: auto;
 }
 .number{
+  margin-top: -50px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -158,6 +183,67 @@
   font-weight: bold;
 }
 .user-number-description{
+  margin-top: -80px;
   font-size: 20px;
   font-weight: 400;
+  color: rgba(0, 0, 0, 50%);
+}
+.user-comment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 1440px;
+  margin: auto;
+  padding: 40px 0; 
+}
+.comment1{
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 5%);
+  width: 450px;
+  padding: 10px;
+}
+.focus{
+  background-color: white;
+   align-items: center; 
+  width: 1440px;
+  margin: auto;
+  padding: 40px 0;
+  border-radius: 14px;
+}
+.form{
+  display: flex;
+   width: 1440px;
+  margin: auto;
+  padding: 40px 0;
+  border-radius: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-input{
+  width: 550px;
+
+}
+.btn-primary4 {
+  margin-top: 23px;
+  background-color: #4E47FF;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 510px;
+  height: 48px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+   width: 1440px;
+  margin: auto;
+  border-radius: 14px;
+  justify-content: space-between;
+  align-items: center;
 }
